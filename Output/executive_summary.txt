@@ -1,0 +1,42 @@
+
+KEY INSIGHTS: GENERATED FROM FY2024 DATA
+================================================================
+1. PORTFOLIO HEALTH
+   - 7,974 flights across 30 routes generated
+     AED 2.37B revenue and AED 575.5M profit
+     (avg margin 6.2%).
+   - 33.7% of individual flights were loss-making;
+     8 of 30 routes are net loss-making for the full year.
+
+2. ROUTE PERFORMANCE
+   - Best route: DXB-FRA (AED 99.5M profit,
+     46.1% avg margin).
+   - Weakest route: DXB-CAI (AED -8.2M profit,
+     -84.0% avg margin) candidate for capacity/schedule review.
+
+3. SEASONALITY
+   - Peak season delivers the strongest margins (17.5%);
+     Low season is weakest (-8.5%) consider dynamic
+     pricing / capacity adjustment ahead of low-demand periods.
+
+4. FLEET
+   - Airbus A380 has the best average margin among the fleet;
+     Boeing 737-800 the weakest worth reviewing route-aircraft assignment.
+
+5. WHAT DRIVES MARGIN
+   - Load Factor correlates +0.42 with Profit Margin filling seats matters,
+     but the feature-importance analysis (Section 7) shows aircraft type and route
+     category matter just as much as load factor alone.
+
+6. FORECASTING
+   - Weekly demand and revenue forecasts (Section 8-9) project the next 6 weeks;
+     Random Forest outperformed the linear baseline on hold-out MAPE in the backtest.
+
+RECOMMENDATIONS
+================================================================
+ - Reassess or restructure the 8 structurally loss-making routes:
+   right-size aircraft, adjust frequency, or renegotiate airport/handling fees.
+ - Shift capacity toward Star/Cash-Cow routes (Section 6) during Low season.
+ - Use the fleet unit-economics view (Section 5.4) to guide aircraft-route matching
+   assign higher-CASK aircraft only to routes with strong RASK.
+ - Feed the 6-week demand/revenue forecast into crew and inventory planning.
