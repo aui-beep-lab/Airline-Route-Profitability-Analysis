@@ -76,7 +76,7 @@ they don't exist, and writes every chart and table there as it runs.
 8. **Demand Forecasting** : weekly passengers, Linear Regression vs. Random Forest, 6-week forecast
 9. **Revenue Forecasting** : same methodology applied to weekly revenue
 10. **Executive Dashboard** : one-page KPI summary + optional interactive `ipywidgets` explorer
-11. **Key Insights & Recommendations** — auto-generated from the live data
+11. **Key Insights & Recommendations**: auto-generated from the live data
 
 ## 🔑 Key Findings
 
@@ -89,7 +89,7 @@ they don't exist, and writes every chart and table there as it runs.
 | Loss-making flights | 33.7% |
 | Net loss-making routes | 8 of 30 |
 | Best route | DXB-FRA (AED 99.5M profit, 46.1% margin) |
-| Weakest route | DXB-CAI (–AED 8.2M profit, –84.0% margin) |
+| Weakest route | DXB-CAI (AED 8.2M profit, 84.0% margin) |
 | Best season | Peak (17.5% avg margin) |
 | Weakest season | Low (–8.5% avg margin) |
 | Best aircraft (margin) | Airbus A380 |
