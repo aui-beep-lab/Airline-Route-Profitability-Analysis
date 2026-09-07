@@ -1,7 +1,7 @@
 # ✈️ Airline Route Profitability & Demand Forecasting
 
 End-to-end data analytics project on **7,974 Emirates (DXB) flights across 30 routes**
-in FY2024 — data cleaning, exploratory analysis, route profitability diagnostics,
+in FY2024: data cleaning, exploratory analysis, route profitability diagnostics,
 K-Means route segmentation, feature-importance analysis, demand & revenue
 forecasting, and an executive dashboard, all in one reproducible Python script /
 Jupyter notebook.
@@ -9,9 +9,9 @@ Jupyter notebook.
 ## 📊 Highlights
 
 - **AED 2.37B** total revenue · **AED 575.5M** total profit · **6.2%** average margin
-- **8 of 30 routes** are net loss-making for the year — surfaced and quantified
+- **8 of 30 routes** are net loss-making for the year, surfaced and quantified
 - Missing values (`Ancillary_Revenue`, `Catering_Cost`, `Handling_Cost`) recovered
-  **algebraically** from totals rather than imputed — no information lost
+  **algebraically** from totals rather than imputed, no information lost
 - **K-Means segmentation** of routes into Star / Cash Cow / Question Mark / Underperformer tiers
 - **Random Forest** feature-importance analysis of what actually drives profit margin (R² = 0.78)
 - **6-week demand & revenue forecasts**, backtested with MAE / RMSE / MAPE
@@ -32,7 +32,7 @@ Airline Route Profitability/
 └── README.md
 ```
 > The script auto-detects the CSV anywhere inside the project folder, so the exact
-> subfolder layout above is a suggestion, not a hard requirement — see **How to Run**.
+> subfolder layout above is a suggestion, not a hard requirement; see **How to Run**.
 
 ## 🚀 How to Run
 
